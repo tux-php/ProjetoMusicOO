@@ -5,8 +5,8 @@ import br.com.alura.minhasmusicas.modelos.*;
 public class Principal {
     public static void main(String[] args) {
         Musica minhamusica = new Musica();
-        minhamusica.setTitulo("Forever");
-        minhamusica.setCantor("Kiss");
+        minhamusica.setTitulo("Feliz Aniversário");
+        minhamusica.setCantor("Caneta azul");
 
         for (int i = 0; i < 1000; i++) {
             minhamusica.reproduz();
